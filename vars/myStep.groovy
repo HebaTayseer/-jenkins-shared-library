@@ -1,3 +1,3 @@
-def call() {
-    echo "Hello, ${params.NAME}!"
+def call(Map params) {
+  echo "Hello, ${params.name}!"
 }
